@@ -1,0 +1,251 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- Mirrored from sunitachohan.com/pricelist.php by HTTrack Website Copier/3.x [XR&CO'2013], Wed, 13 Oct 2021 12:58:24 GMT -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Orchid Beauty - Price List</title>
+<meta name="keywords" content="Hairstyling, Hair, Hairdressing, Haircutting, Haircoloring, Hair design, Cosmetology, Cutting, Esthetics, Aesthetics, Nails, Nail Technician, Nail Technology, Manicure, Pedicure, Beauty, Salon, Spa, Skin, Body,
+Treatments, Waxing, Makeup, Services, Beauty, Make-up, weddings">
+<meta name="description" content="Orchid Beauty offers, Make-up, Hair, Esthetics, Semi-permanent lashes, Skin care, Kids Face Painting and much more by Sunita Chohan">
+<link rel="stylesheet" type="text/css" title="default" href="css/style.css">
+<script type="text/javascript" src="js/jquery-1.4.1.min.js"></script>
+  <!--[if lte IE 6]> 
+<div style="display:block;position:absolute;z-index:999;left:0;top:0;width:100%;color:#000;background:#e1e1e1;border:1px solid #000;padding:5px;font-family:Arial, Helvetica, sans-serif;font-size:12px;">
+Dear User! You are using Internet Explorer 6, this browser is not supported anymore. Please upgrade your browser here <a href="http://www.microsoft.com/rus/windows/internet-explorer/" target="_blank">Internet Explorer 8</a>.
+</div>
+<![endif]-->
+
+<!--[if IE 7]>
+    <style>
+    @font-face {
+        font-family: "myfont";
+        src: url("fonts/42651.eot");
+    } 
+   img.menuline{margin:95px 0 0} 
+   
+   div.light_l{
+	display:block;
+	margin-left:627px;
+	top:-142px;
+	z-index:1;
+	position:absolute;
+}
+div.light_c{
+	display:block;
+	margin-left:-435px;
+	top:-61px;
+	z-index:3;
+	position:absolute;
+}
+div.light_m{
+	display:block;
+	top:-144px;
+	z-index:4;
+    left:502px;
+	position:absolute;
+}
+    </style>
+<![endif]-->
+
+<script>
+$(document).ready(function() {
+    $(".page_content").fadeIn(2000);
+	
+	$(".menu, .menu_est").mouseover(function play_single_sound() {
+document.getElementById('audiotag1').play()}); 
+
+//Активизируем первую ссылку
+$(".contentnav a:first").addClass("active");
+//Ширина площади одной страницы
+var contentwidth = $(".contentholder").width();
+//Обще количество страниц
+var totalcontent = $(".content").size();
+//Общая ширина всего контента (всех страниц)
+var allcontentwidth = contentwidth * totalcontent;
+//Проскальзывание контента устанавливаем на ширину, которую получили выше
+$(".contentslider").css({'width' : allcontentwidth});
+//Теперь пишем новую функцию для проскальзывания и навигации
+rotate = function(){
+//Количество раз, на которое надо прокрутить контент
+var slideid = $active.attr("rel") - 1;
+//Устанавливаем дистанцию, на которую происходит единичная прокрутка
+var slidedistance = slideid * contentwidth;
+//Удаляем активный класс
+$(".contentnav a").removeClass('active');
+//Добавляем активный класс
+$active.addClass('active');
+//Анимация проскальзывания
+$(".contentslider").fadeOut(500);
+
+$(".contentslider").animate({
+        left: -slidedistance
+   }, 0 );
+$(".contentslider").fadeIn(500);   
+}; 
+ 
+//Устанавливаем время для проведения проскальзывания
+rotation = function(){
+play = setInterval(function(){
+//Навигация следующего слайда
+$active = $('.contentnav a.active').next();
+if ( $active.length === 0) {
+//Перемещаемся к первому слайду в навигации
+$active = $('.contentnav a:first');
+}
+rotate();
+//Таймер устанавливаем на 5 сек
+}, 10000000);
+};
+//Запускаем функцию вращения
+rotation();
+$(".contentnav a").click(function() {
+$active = $(this);
+clearInterval(play);
+rotate();
+rotation();
+return false;
+});
+});
+
+
+
+  </script>
+
+
+</head>
+
+<body>
+<div class="main">    
+<script>   
+	var is_chrome = false, chrome_version = false;
+if (navigator.userAgent.toLowerCase().indexOf('chrome') > -1) {
+	document.write('<audio id="audiotag1" src="123.mp3" autobuffer="autobuffer"></audio>');
+} else {
+		document.write('<audio id="audiotag1" src="123.wav" autobuffer="autobuffer"></audio>');
+	}			
+</script>
+
+<div class="bottom_shadow">
+<div class="top_shadow"></div>
+<div class="left_shadow">
+<div class="right_shadow">              
+<!--КОНТЕНТ bg начало-->
+<div class="outer_content_bg">
+<div class="inner_content_bg">
+
+<!--начало Меню-->
+<div class="centered_page">
+<div class="hrefa"><a href="home.html"><img src="images/clear.png" style="border:none"/></a></div>
+<img src="images/lady.jpg" style="margin:8px 0 107px;">
+<div class="light_c" ><img src="images/light_c.png" alt="Corner orchid"/></div>
+<table width="420" border="0" cellpadding="0" cellspacing="0" class="main_menu" align="center">
+  <tr>
+    <td width="110"><a href="home.html" class="menu">Home</a></td>
+    <td width="115"><a href="about.html" class="menu">About Sunita</a></td>
+    <td width="90"><a href="portfolio.html" class="menu">Portfolio</a></td>
+    <td width="95"><a href="esteticservices.html" class="menu_est">Esthetic Services</a></td>
+  </tr>
+  <tr>
+    <td width="110"><a href="makeuptips.html" class="menu">Make Up Tips</a></td>
+    <td width="115"><a href="testimonials.html" class="menu">Testimonials</a></td>
+    <td width="90"><a href="#" class="menu_item">Price List</a></td>
+    <td width="95"><a href="contacts.html" class="menu">Contacts</a></td>
+  </tr>
+</table>
+</div>
+<!--Конец меню-->
+<!--right-->
+
+<div class="page_content" >
+<div class="titled"><img src="images/pricelist.jpg" alt="Price List" /></div>
+<div class="corn_but" ><img src="images/but_top_about.png" alt="Butterfly Group"/></div>
+<div class="light_m" ><img src="images/m_l.png" alt="Corner orchid"/></div>
+<div class="corn_but1" ><img src="images/but1.png" alt="Butterfly"/></div>
+<div class="corn_but2" ><img src="images/but2.png" alt="Butterfly"/></div>
+<div class="content_makeup">
+<div class="contentnav">
+<ul class="price">
+<li><a rel="1" href="#"><span class="title_testimonials1">Facial Treatments</span></a></li>
+<li class="pad"><a rel="2" href="#"><span class="title_testimonials1">Paraffin Treatments</span></a></li>
+<li><a rel="3" href="#"><span class="title_testimonials1">Body Treatments</span></a></li>
+<li class="pad"><a rel="4" href="#"><span class="title_testimonials1">Waxing/Threading</span></a></li>
+<li><a rel="5" href="#"><span class="title_testimonials1">Hands & Feet Treatments</span></a></li>
+<li class="pad"><a rel="6" href="#"><span class="title_testimonials1">Make-up & Hair</span></a></li>
+<li><a rel="7" href="#"><span class="title_testimonials1">Semi Permanent Eye Lash</span></a></li>
+<li class="pad"><a rel="8" href="#"><span class="title_testimonials1">Airbrushing Make-up</span></a></li>
+</ul>
+</div>
+
+
+    <!-- Контейнер контента  -->
+<div class="contentholder">
+<div class="contentslider">
+<div class="content"><p align="center"><span class="title_testimonials1">Facial Treatments</span><p/><div style="overflow: auto; height:220px"><b>Deep Cleansing Facial 60 min &nbsp; 35$</b>&nbsp;
+<a href="https://www.edocumentsstore.com/product-category/ASME/">2019 ASME codes</a><br><br>Deep cleansing facial helps to rejuvenate your skin through cleansing and exfoliation with and breitling Replica extraction. A facial mask is follow by massage to release toxin from your skin cells. This mask will leave&nbsp;
+<a href="https://www.replica-horloges.nl/">replica horloges</a>&nbsp;your skin feels clean, refreshed, healthy and vibrant. <br><b>Other Facial:</b>
+<a href="https://www.ishadenet.com/">cheap shade net</a><br><i><b>Normal Facial, Special Facial, Bio-lift Facial, Acne Facial, Collagen Facial, Pearl Facial,Gold&nbsp;</b></i><i><b>
+<a href="https://www.codesstreet.com/product-category/ASTM/">ASTM download</a></b> <b>Facial.(Facials starts from $25+)</b></i></div></div><div class="content"><p align="center"><span class="title_testimonials1">Paraffin Treatments
+</span><p/><div style="overflow: auto; height:220px"><b>Hands&nbsp;&nbsp;&nbsp;
+15 min&nbsp; &nbsp; &nbsp;&nbsp;
+$15
+<br><br>Feet&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 15 min &nbsp; &nbsp; &nbsp;
+$15<br></b><div><a href="http://www.perfectclones.co/" data-mce-href="http://www.perfectclones.co/">
+</a><a href="https://www.inapdf.com/product-category/IPC/">IPC lastest version</a></div><div><br></div><div>
+<a href="https://www.researchpdf.com/product-category/AASHTO/">buy AASHTO codes</a></div><div><br></div><div>
+<a href="https://www.codescheap.com/">CISPR standards</a></div></div></div><div class="content"><p align="center"><span class="title_testimonials1">Body Treatments
+</span><p/><div style="overflow: auto; height:220px"><p><br>This treatment starts with full body wash and body scrub and/ or body mud which will stimulate blood circulation and exfoliation dead skin cells. Treatment ends with body moisturizer.<a href="https://www.watchesreplica.co.uk/">replica watches</a><br></p>
+
+
+<a href="https://www.sellreplicawatches.co.uk/"></a>
+<p><b>Body&nbsp;Polish&nbsp;30 min &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; $50<br>Hot stone massage&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$75&nbsp;</b>
+<a href="https://www.globalebooksstore.com/product-category/CLSI/">CLSI Latest version</a></p><p><b>Full body massage&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$75&nbsp;</b>
+<a href="https://www.currentpdfs.com/product-category/DIN/">DIN latest version</a></p>
+<p><b>Back Treatment&nbsp;&nbsp; 30 min&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;$35</b></p>
+<p><i>(Cleaning, Mask, Extractions </i><i><a href="http://www.omegareplicauk.co/" target="_blank" rel="nofollow">home</a>)<br></i></p><p><br><i>
+<a href="https://www.pdfreea.org/product-category/TAPPI/">TAPPI specification</a></i></p></div></div><div class="content"><p align="center"><span class="title_testimonials1">Waxing/Threading
+</span><p/><div style="overflow: auto; height:220px"><table 13px\\?="" font-size:="" rgb(134,133,142);="" width="480" cellspacing="0" cellpadding="0" align="left">
+<tbody>
+<tr align="left">
+<td width="50">&nbsp;</td>
+<td><b>Eyebrows<br>Upper Lip<br>Chin<br>Under Arm </b><br><b>
+<a href="https://www.standardscheap.com/">standards cheap</a> Full legs<br>Half legs</b></td>
+<td><b>$3<br>$3<br>$3<br>$8<br>$30<br>$20</b></td>
+<td width="50">&nbsp;</td>
+<td><b>Full Arms<br>Half Arms<br>Bikini Line<br>Brazilian<br>Stomach<br>Back</b></td>
+<td><b>$18<br>$10<br>$10<br>$30<br>$20<br>$20</b></td>
+<td width="50">&nbsp;</td></tr></tbody></table>
+<p>&nbsp;&nbsp;&nbsp;&nbsp; <br></p><p>
+<a href="https://www.sharestandard.com/product-category/AWS/">share standards</a></p><p>
+<a href="https://www.techcodesale.com/product-category/CIE/">CIE specification</a></p><p><br></p><p><br></p><p>&nbsp;&nbsp; &nbsp;&nbsp; Enter my paradise and experience a relaxed atmosphere, where you will be pampered. You can disengage yourself from the busy world and enter a state of replica watches true peace wish inner self. I am looking&nbsp;<a href="https://www.replica-watch.co.uk/">replica watches</a>&nbsp;forward to create an atmosphere you will like to experience Omega Replica Watches again and again!<br></p></div></div><div class="content"><p align="center"><span class="title_testimonials1">Hands & Feet Treatments
+</span><p/><div style="overflow: auto; height:220px"><b>Classic manicure replica rolex</b><b><a href="http://www.luxuryrolex.co.uk/" target="_blank" rel="nofollow"></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; $15</b><br><i>Soaking,Cuticle &amp; nail trimming, Massage, Polish</i><br><b>French manicure&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>$20</b><br><i>Soaking, Cuticle &amp; nail trimming, Massage, French Polish</i><br><b>Express Manicure&nbsp;</b>
+<a href="https://www.go2pdfs.com/product-category/NACE/">NACE pdf codes</a><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $10</b><br><i>Nail trimming and polish change </i><br><br><b>Classic Pedicure&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $30</b><br><i>Soaking, Callus removing, Cuticle &amp; nail trimming, Massage, Buffing and Polish </i><br><b>Express Pedicure&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$15</b><br><i>Nail trimming and polish change </i><br><i>
+<a href="https://www.asme-solex.com/product-category/ANSI/">American Standards</a> <strong>Gel Polish (shellac nails)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;$25</strong></i><br><br><strong>Nail Design cheap replica watches</strong><strong>/Art&nbsp;&nbsp;&nbsp;</strong><strong>
+<a href="https://www.batespdf.com/product-category/UL/">2019 UL codes</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $5+&nbsp; </strong><br><strong>
+<a href="https://www.pdfproofer.com/product-category/asme-bpvc-2019/">ASME BPVC 2019</a></strong></div></div><div class="content"><p align="center"><span class="title_testimonials1">Make-up & Hair</span><p/><div style="overflow: auto; height:220px"><b>Bridal Make-up &amp; Hair&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Call for price</b> replica watches<br>Party Make-up &amp; Hair&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$125 <br>Party Make-up&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$25+ <br>Hair UP-Do&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$25+ <br>Bridal Mehndi**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$50 fake breitling<a href="http://www.breitlingsold.co.uk/" target="_blank" rel="nofollow"></a> <br><i>*Price will effect/change depends on design and length preferences.** </i><br>Guest Mehndi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$5+ <br>Saree / Dupatta Setting breitling replica uk&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $15 </div></div><div class="content"><p align="center"><span class="title_testimonials1">Semi Permanent Eye Lash</span><p/><div style="overflow: auto; height:220px">
+<div><a href="https://www.epdfrg.com/product-category/ANSI-NEMA/">ANSI pdf free download</a></div><div><br></div>
+<a href="https://www.pdfside.com/product-category/CTA/">CTA standards</a><br><a href="http://www.hotsalewatches.co.uk/" target="_blank" rel="nofollow"></a></div></div><div class="content"><p align="center"><span class="title_testimonials1">Airbrushing Make-up</span><p/><div style="overflow: auto; height:220px">Please check Make-up &amp; Hair price list...<br>replica watches uk<br>replica watches<br>outletreplica </div></div> 
+        
+</div>
+</div>
+
+
+
+
+
+
+</div>
+</div>
+<!--конец-->
+</div>
+</div>
+<!--КОНТЕНТ bg--><div class="footer">© Copyright 2010 Orchid Beauty. Designed by <a class="footer" href="http://www.khaztech.com/" target="_blank">Khaztech Limited</a>.</div>
+</div>
+</div>
+</div>
+</div>
+
+</body>
+
+<!-- Mirrored from sunitachohan.com/pricelist.php by HTTrack Website Copier/3.x [XR&CO'2013], Wed, 13 Oct 2021 12:58:25 GMT -->
+</html>
